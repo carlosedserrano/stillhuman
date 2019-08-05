@@ -1,0 +1,76 @@
+body {
+  font-family: Cooper Hewitt;
+  font-size: 16px;
+  color: #0000ff;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  /*marings are the go to property when we want to create space b/w elements on the page*/
+}
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  /*marings are the go to property when we want to create space b/w elements on the page*/
+}
+
+a {
+  /* we need to specif a color and style for links or they will use default    */
+  color: #0000ff;
+}
+section {
+  /* vh = viewport height, relative to height of browser */
+  height: 100vh;
+  background-image: url(ths_proc_finpres_8.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  /* this will fix background img to the broswer viewport */
+  /* background image will cover full width and height of section w/o skewing or tiling */
+}
+header {
+  position: fixed;
+  /* using fixed position allows us to precisely position an element in relation to the browser viewport */
+  top: 20px;
+  left: 20px;
+}
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+footer a {
+  /* this selector will only select a tags in footer tags */
+  margin-right: 5px;
+}
+a:hover {
+  color: yellow;
+  /*we can apply styles to elements based on wheater we are hovering over them; this is called a pseudo selector
+  */
+}
+.image_2 {
+  background-image: url(ths_proc_finpres_9.jpg);
+  /*this will apply styles to any element in our html which has a 'class atrbt of "image_2" */
+}
+.image_3 {
+  background-image: url(ths_proc_finpres_10.jpg);
+  /*this will apply styles to any element in our html which has a 'class atrbt of "image_2" */
+}
+.image_4 {
+  background-image: url(ths_proc_finpres_11.jpg);
+  /*this will apply styles to any element in our html which has a 'class atrbt of "image_2" */
+}
+.image_5 {
+  background-image: url(ths_proc_finpres_12.jpg);
+  /*this will apply styles to any element in our html which has a 'class atrbt of "image_2" */
+}
+.image_6 {
+  background-image: url(ths_proc_finpres_1.jpg);
+  /*this will apply styles to any element in our html which has a 'class atrbt of "image_2" */
+}
+.image_7 {
+  background-image: url(www_ths_01.jpg);
+  /*this will apply styles to any element in our html which has a 'class atrbt of "image_2" */
+}
